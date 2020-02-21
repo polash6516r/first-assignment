@@ -1,0 +1,35 @@
+p{
+    color: dimgray;
+}
+.name-highlight{
+    color: hotpink;
+}
+.half-width{
+    width:40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.half-width img{
+    width: 40%;
+    float: left;
+}
+.web{
+     float: left;
+     width: 30%;
+     padding: 10%;
+
+}
+.top-banner{
+    background-image: url("top-banner.png");
+}
+.link-button{
+    text-decoration: none;
+    background-color: hotpink;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+}
+.biography{
+    background-image: url(image/biography-bg.png);
+}
