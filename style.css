@@ -4,6 +4,11 @@ p{
 .name-highlight{
     color: hotpink;
 }
+.top-banner{
+    background-image: url(image/header-bg.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
 .half-width{
     width:40%;
     float: left;
@@ -14,14 +19,11 @@ p{
     width: 40%;
     float: left;
 }
-.web{
-     width: 30%;
-     float: right;
-     margin: 3%;
+.biography-area{
+    background-image: url(image/biography-bg.png);
 }
-.top-banner{
-    background-image: url("top-banner.png");
-}
+    
+    
 .link-button{
     text-decoration: none;
     background-color: hotpink;
@@ -29,9 +31,47 @@ p{
     border-radius: 5px;
     color: white;
 }
-.biography{
+.latest-work{
     background-image: url(image/biography-bg.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: middle;
 }
-.comments{
+section{
+    height: 550px;
+    padding: 100px;
+    display: block;
+}
+
+.text-alignment{
     text-align: center;
+}
+h2{
+    font-size: 40px;
+}
+.one-third img{
+    width: 100%;
+}
+.one-third{
+    width: 25%;
+    float: left;
+    margin-left: 2%;
+    padding-left: 2%;
+}
+.contact-area{
+    background-image: linear-gradient(45deg, tomato, indianred);
+    margin: 0px 300px;
+    color: white;
+    padding: 30px 60px;
+    font-weight: 700;
+    border-radius: 50px;
+}
+.text-alignment{
+    text-align: center;
+}
+div{
+    display: block;
+}
+body{
+    font-family: poppins, sans-serif;
 }
