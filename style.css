@@ -15,10 +15,9 @@ p{
     float: left;
 }
 .web{
-     float: left;
      width: 30%;
-     padding: 10%;
-
+     float: right;
+     margin: 3%;
 }
 .top-banner{
     background-image: url("top-banner.png");
@@ -32,4 +31,7 @@ p{
 }
 .biography{
     background-image: url(image/biography-bg.png);
+}
+.comments{
+    text-align: center;
 }
